@@ -388,6 +388,13 @@
   "archive": {
     "archiveItems": [
       {
+        "title":"DIY Portfolio",
+        "date": "Feb 2023",
+        "imageName": "DIY-Portfolio.webp",
+        "imageAlt": "DIY Portfolio Cover",
+        "link": "https://blog.nmreddy.me/diy-portfolio"
+      },
+      {
         "title": "VeriCert White Paper",
         "date": "Nov 2023",
         "imageName": "VeriCert-WhitePaper.webp",
