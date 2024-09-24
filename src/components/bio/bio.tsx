@@ -13,6 +13,20 @@ export default function Resume() {
     <div className="containerMain">
       <Title title="Biography" />
       <div>
+        {education && <SectionTitle icon={FaUniversity} title="Education" />}
+        <div className={styles.bioWrapper}>
+          {education &&
+            education.map((item) => (
+              <BioItem
+                key={item.institution}
+                organization={item.institution}
+                hyperlink={item.institutionURL}
+                roleAndYearArray={item.degrees}
+              />
+            ))}
+        </div>
+      </div>
+      <div>
         {workExperience && (
           <SectionTitle icon={FaBriefcase} title="Work Experience" />
         )}
@@ -24,20 +38,6 @@ export default function Resume() {
                 organization={item.company}
                 hyperlink={item.companyURL}
                 roleAndYearArray={item.roles}
-              />
-            ))}
-        </div>
-      </div>
-      <div>
-        {education && <SectionTitle icon={FaUniversity} title="Education" />}
-        <div className={styles.bioWrapper}>
-          {education &&
-            education.map((item) => (
-              <BioItem
-                key={item.institution}
-                organization={item.institution}
-                hyperlink={item.institutionURL}
-                roleAndYearArray={item.degrees}
               />
             ))}
         </div>

@@ -5,7 +5,7 @@
   },
   "home": {
     "name": "Manish",
-    "intro": "I am a software engineer who loves technology, computers and everything gadgets. I enjoy building new things and relish the logical thinking that comes with it.\nWhen I am not working, I like to ride my bike and explore new trails.",
+    "intro": "I am a student and a software engineer who loves technology, computers and everything gadgets. I enjoy building new things and relish the logical thinking that comes with it.\nWhen I am not working, I like to ride my bike and explore new trails.",
     "socialLinks": [
       {
         "name": "Github",
@@ -38,8 +38,8 @@
       "nationality": "Indian",
       "location": "Hyderabad",
       "experienceStartDate": "2021-01-01",
-      "currentRole": "Senior Software Engineer",
-      "currentRoleShort": "Sr. SWE",
+      "currentRole": "Student",
+      "currentRoleShort": "Student",
       "openToCollaboration": "Yes",
       "coreCompetencies": "Technology & Operations",
       "coreCompetenciesShort": "Tech & Ops",
@@ -55,7 +55,7 @@
           {
             "title": "Senior Software Engineer",
             "description": "Leading critical customer service requests, I deliver impactful user stories in collaboration with product owners and stakeholders leveraging Java and other tools, ensuring seamless integration and enhancing the overall quality.",
-            "year": "Dec 2023 - Present"
+            "year": "Jan 2024 - July 2024"
           },
           {
             "title": "Software Engineer",
@@ -94,6 +94,17 @@
       }
     ],
     "education": [
+      {
+        "institution": "Indiana University Bloomington",
+        "degrees": [
+          {
+            "title": "Master of Science in Computer Science",
+            "year": "Aug 2024 - Present",
+            "description": "Pursuing the masters program at the Luddy School of Informatics, Computing & Engineering."
+          }
+        ],
+        "institutionURL": "https://www.cmrcet.ac.in/"
+      },
       {
         "institution": "Dexterity School of Leadership and Entrepreneurship",
         "degrees": [
@@ -388,7 +399,7 @@
   "archive": {
     "archiveItems": [
       {
-        "title":"DIY Portfolio",
+        "title": "DIY Portfolio",
         "date": "Feb 2023",
         "imageName": "DIY-Portfolio.webp",
         "imageAlt": "DIY Portfolio Cover",
@@ -418,9 +429,9 @@
     ]
   },
   "contact": {
-    "phone": "+91 707 569 8828",
+    "phone": "+1 737 298 1563",
     "emailID": "hello@nmreddy.me",
-    "address": "Hyderabad, Telangana",
-    "addressLink": "https://www.google.com/maps/place/Hyderabad,+Telangana/"
+    "address": "Bloomington, IN",
+    "addressLink": "https://www.google.com/maps/place/Bloomington,+IN/"
   }
 }
