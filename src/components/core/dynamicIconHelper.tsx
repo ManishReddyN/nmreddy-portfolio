@@ -1,8 +1,8 @@
-import loadable from "@loadable/component";
+import dynamic from "next/dynamic";
 import { IconBaseProps, IconType } from "react-icons";
-import { LoadableComponent } from "next/dynamic";
+import { ComponentType } from "react";
 
-export type DynamicIconType = LoadableComponent<IconBaseProps>;
+export type DynamicIconType = ComponentType<IconBaseProps>;
 export const getDynamicIcon = (iconName: string): DynamicIconType => {
   let lib = iconName
     .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
@@ -14,7 +14,13 @@ export const getDynamicIcon = (iconName: string): DynamicIconType => {
   if (lib == "fa") {
     lib = "fa6";
   }
-  return loadable(() => import(`react-icons/${lib}/index.js`), {
-    resolveComponent: (loadedModule) => loadedModule[iconName] as IconType,
-  });
+  return dynamic(
+    () =>
+      import(`react-icons/${lib}/index.js`).then((mod) => ({
+        default: mod[iconName] as IconType,
+      })),
+    {
+      ssr: false,
+    }
+  );
 };

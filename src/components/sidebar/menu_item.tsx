@@ -18,7 +18,7 @@ export default function MenuItem({ icon, href, title }: MenuItemProps) {
     } else {
       setIsActive(false);
     }
-  }, [router]);
+  }, [router, href]);
   const Icon = icon;
 
   return (

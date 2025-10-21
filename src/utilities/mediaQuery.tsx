@@ -18,8 +18,8 @@ export const useMediaQuery = (width: number) => {
     if (media.matches) {
       setTargetReached(true);
     }
-    return () => media.removeEventListener("chage", updateTarget);
-  }, []);
+    return () => media.removeEventListener("change", updateTarget);
+  }, [updateTarget, width]);
 
   return targetReached;
 };
