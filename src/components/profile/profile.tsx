@@ -43,14 +43,9 @@ export default function Profile() {
             </h2>
             <p>{profileData.bio}</p>
             <ul>
-              {profileData.details.nationality && (
+              {profileData.details.basedIn && (
                 <li>
-                  <b>Nationality</b> {profileData.details.nationality}
-                </li>
-              )}
-              {profileData.details.location && (
-                <li>
-                  <b>Location</b> {profileData.details.location}
+                  <b>Based In</b> {profileData.details.basedIn}
                 </li>
               )}
               {profileData.details.experienceStartDate && (
@@ -78,10 +73,46 @@ export default function Profile() {
                   {profileData.details.currentRoleShort}
                 </li>
               )}
-              {profileData.details.openToCollaboration && (
+              {profileData.details.currentCompany && !isSmallScreen && (
                 <li>
-                  <b>Open to Collaboration</b>{" "}
-                  {profileData.details.openToCollaboration}
+                  <b>Current Company</b> {profileData.details.currentCompany}
+                </li>
+              )}
+              {profileData.details.currentCompanyShort && isSmallScreen && (
+                <li>
+                  <b>Current Company</b>{" "}
+                  {profileData.details.currentCompanyShort}
+                </li>
+              )}
+              {profileData.details.currentEducation && !isSmallScreen && (
+                <li>
+                  <b>Current Education</b>{" "}
+                  {profileData.details.currentEducation}
+                </li>
+              )}
+              {profileData.details.currentEducationShort && isSmallScreen && (
+                <li>
+                  <b>Current Education</b>{" "}
+                  {profileData.details.currentEducationShort}
+                </li>
+              )}
+              {profileData.details.educationGraduationDate &&
+                !isSmallScreen && (
+                  <li>
+                    <b>Graduation Date</b>{" "}
+                    {profileData.details.educationGraduationDate}
+                  </li>
+                )}
+              {profileData.details.educationGraduationDateShort &&
+                isSmallScreen && (
+                  <li>
+                    <b>Graduation Date</b>{" "}
+                    {profileData.details.educationGraduationDateShort}
+                  </li>
+                )}
+              {profileData.details.openForWork && (
+                <li>
+                  <b>Open for Work</b> {profileData.details.openForWork}
                 </li>
               )}
               {profileData.details.coreCompetencies && !isSmallScreen && (
@@ -96,10 +127,14 @@ export default function Profile() {
                   {profileData.details.coreCompetenciesShort}
                 </li>
               )}
-              {profileData.details.personalPursuits && (
+              {profileData.details.interests && !isSmallScreen && (
                 <li>
-                  <b>Personal Pursuits</b>{" "}
-                  {profileData.details.personalPursuits}
+                  <b>Interests</b> {profileData.details.interests}
+                </li>
+              )}
+              {profileData.details.interestsShort && isSmallScreen && (
+                <li>
+                  <b>Interests</b> {profileData.details.interestsShort}
                 </li>
               )}
             </ul>

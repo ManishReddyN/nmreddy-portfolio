@@ -5,27 +5,27 @@
   },
   "home": {
     "name": "Manish",
-    "intro": "I am a student and a software engineer who loves technology, computers and everything gadgets. I enjoy building new things and relish the logical thinking that comes with it.\nWhen I am not working, I like to ride my bike and explore new trails.",
+    "intro": "I am a software engineer who turns messy requirements into predictable systems. I build clear APIs, simple data models, and services that hold up under real traffic. I ship small, learn fast, and keep things understandable. Off the keyboard, I reset on a bike and find new trails.",
     "socialLinks": [
-      {
-        "name": "Github",
-        "link": "https://github.com/ManishReddyN/",
-        "icon": "IoLogoGithub"
-      },
       {
         "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/ManishReddyN/",
         "icon": "IoLogoLinkedin"
       },
       {
-        "name": "Blog",
-        "link": "https://blog.nmreddy.me/",
+        "name": "Resume",
+        "link": "/assets/profile/Resume_ManishReddy_Nandineni.pdf",
         "icon": "IoReader"
       },
       {
         "name": "Calendly",
         "link": "https://calendly.com/quick_connect-with-manish_reddy/30min",
         "icon": "IoCalendar"
+      },
+      {
+        "name": "Github",
+        "link": "https://github.com/ManishReddyN/",
+        "icon": "IoLogoGithub"
       }
     ]
   },
@@ -33,22 +33,61 @@
     "profilePictureFileName": "Profile.webp",
     "profilePictureAlt": "Profile Image",
     "name": "Manish Reddy Nandineni",
-    "bio": "Building, researching, and exploring technology fuels my days. Bridging tech, products, policy, philosophy, and life's big questions, I seek diverse perspectives through stimulating conversations.",
+    "bio": "I build backend foundations that hold up in production: readable code, tight contracts, and metrics you can trust. I’m into distributed systems, cloud platforms, and AI powered services.",
     "details": {
-      "nationality": "Indian",
-      "location": "Hyderabad",
-      "experienceStartDate": "2021-01-01",
-      "currentRole": "Student",
-      "currentRoleShort": "Student",
-      "openToCollaboration": "Yes",
-      "coreCompetencies": "Technology & Operations",
-      "coreCompetenciesShort": "Tech & Ops",
-      "personalPursuits": "Blockchain & AI"
+      "from": "India",
+      "basedIn": "USA",
+      "experienceStartDate": "2022-05-01",
+      "currentRole": "AI Software Engineer",
+      "currentRoleShort": "AI SWE",
+      "currentCompany": "Revoint",
+      "currentCompanyShort": "Revoint",
+      "currentEducation": "MS in CS at Indiana University Bloomington",
+      "currentEducationShort": "MS in CS at IUB",
+      "educationGraduationDate": "May 2026",
+      "educationGraduationDateShort": "May 2026",
+      "openForWork": "Yes",
+      "coreCompetencies": "Cloud, AI Engineering, Backend systems",
+      "coreCompetenciesShort": "Cloud, AI, Backend",
+      "interests": "Distributed systems, APIs, Agentic systems",
+      "interestsShort": "Distributed systems, APIs, Agentic AI"
     },
     "resume": "Resume_ManishReddy_Nandineni.pdf"
   },
   "bio": {
     "workExperience": [
+      {
+        "company": "Revoint LLC",
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "description": "Individually contributing to development of a suite of highly scalable migration and acquisition data management tools. Responsible for designing and implementing features, ensuring code quality, and collaborating with the product owner to deliver high-quality software solutions.",
+            "year": "May 2025 - Present"
+          }
+        ]
+      },
+      {
+        "company": "Graduate and Professional Student Government (GPSG), IUB",
+        "roles": [
+          {
+            "title": "President",
+            "description": "Leading the Graduate and Professional Student Government at Indiana University Bloomington, I am responsible for representing the interests of over 10,000 graduate and professional students. My role involves advocating for student needs, managing a team of 10 members, and collaborating with university administration to enhance the graduate student experience.",
+            "year": "May 2025 - Present"
+          }
+        ],
+        "companyURL": "https://gpsg.indiana.edu/"
+      },
+      {
+        "company": "Indiana University Bloomington",
+        "roles": [
+          {
+            "title": "Associate Instructor",
+            "description": "Mentoring 30+ students from the Luddy School of Informatics, Computing, and Engineering, leading lab sessions on building light sensors for detecting light pollution in the Hoosier National Forest, grading assignments, and providing academic support.",
+            "year": "Jan 2025 - May 2025"
+          }
+        ],
+        "companyURL": "https://www.luddy.indiana.edu/"
+      },
       {
         "company": "Siemens EDA",
         "roles": [
@@ -100,7 +139,7 @@
           {
             "title": "Master of Science in Computer Science",
             "year": "Aug 2024 - Present",
-            "description": "Pursuing the masters program at the Luddy School of Informatics, Computing & Engineering."
+            "description": "Pursuing the master's program at the Luddy School of Informatics, Computing & Engineering."
           }
         ],
         "institutionURL": "https://www.cmrcet.ac.in/"
@@ -352,7 +391,11 @@
         "link": "https://vericert.vercel.app",
         "imageName": "vericert.webp",
         "imageAlt": "VeriCert Image",
-        "technologies": ["Ethereum", "Hyperledger Besu", "Solidity"]
+        "technologies": [
+          "Ethereum",
+          "Hyperledger Besu",
+          "Solidity"
+        ]
       },
       {
         "title": "Asu Machine Enhancement",
@@ -360,7 +403,11 @@
         "link": "https://docs.nmreddy.me/laxmi-asu-machine/",
         "imageName": "arduino.webp",
         "imageAlt": "Arduino Image",
-        "technologies": ["Arduino", "Hardware Integration", "Sensors"]
+        "technologies": [
+          "Arduino",
+          "Hardware Integration",
+          "Sensors"
+        ]
       },
       {
         "title": "DIY Portfolio",
@@ -368,7 +415,12 @@
         "link": "https://github.com/ManishReddyN/diy-portfolio",
         "imageName": "portfolio.webp",
         "imageAlt": "Portfolio Image",
-        "technologies": ["NextJS", "Edge Functions", "CSS", "Notion API"]
+        "technologies": [
+          "NextJS",
+          "Edge Functions",
+          "CSS",
+          "Notion API"
+        ]
       },
       {
         "title": "Linkz - URL Shortener",
@@ -376,7 +428,11 @@
         "link": "https://github.com/ManishReddyN/link-shortener",
         "imageName": "linkz.webp",
         "imageAlt": "Linkz Image",
-        "technologies": ["React", "NodeJS", "MongoDB"]
+        "technologies": [
+          "React",
+          "NodeJS",
+          "MongoDB"
+        ]
       },
       {
         "title": "Code Runner",
@@ -384,7 +440,12 @@
         "link": "https://github.com/ManishReddyN/IDE",
         "imageName": "coderunner.webp",
         "imageAlt": "Code Runner Image",
-        "technologies": ["React", "NodeJS", "MongoDB", "EMKC API"]
+        "technologies": [
+          "React",
+          "NodeJS",
+          "MongoDB",
+          "EMKC API"
+        ]
       },
       {
         "title": "De-cent Books",
@@ -392,7 +453,12 @@
         "link": "https://github.com/ManishReddyN/de-cent-books-dapp",
         "imageName": "decentbooks.webp",
         "imageAlt": "De-cent Books Image",
-        "technologies": ["Truffle", "Ethereum", "Solidity", "React"]
+        "technologies": [
+          "Truffle",
+          "Ethereum",
+          "Solidity",
+          "React"
+        ]
       }
     ]
   },
