@@ -1,14 +1,15 @@
 import styles from "@/styles/sidebar.module.css";
-import { Sidebar, useProSidebar } from "react-pro-sidebar";
+import { Sidebar } from "react-pro-sidebar";
 import Avatar from "./avatar";
 import { MdOutlineClose, MdOutlineMenu } from "react-icons/md";
 import { useMediaQuery } from "../../utilities/mediaQuery";
 import MenuItemList from "./menu";
 import { Col } from "react-bootstrap";
+import { useState } from "react";
 
 export default function SideBar() {
   const isSmallScreen = useMediaQuery(1080);
-  const { toggleSidebar, toggled } = useProSidebar();
+  const [toggled, setToggled] = useState(false);
 
   return (
     <Col
@@ -27,7 +28,7 @@ export default function SideBar() {
           size={25}
           className={styles.menu_icon}
           onClick={() => {
-            toggleSidebar();
+            setToggled(true);
           }}
           color="var(--primary-text-color)"
         ></MdOutlineMenu>
@@ -39,13 +40,15 @@ export default function SideBar() {
         width="300px"
         style={{ zIndex: 99, height: "100vh", border: "none" }}
         transitionDuration={500}
+        toggled={toggled}
+        onBackdropClick={() => setToggled(false)}
       >
         {isSmallScreen && toggled && (
           <MdOutlineClose
             size={25}
             className={styles.close_icon}
             onClick={() => {
-              toggleSidebar();
+              setToggled(false);
             }}
             color="var(--primary-text-color)"
           ></MdOutlineClose>
