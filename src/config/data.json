@@ -465,6 +465,31 @@
   "portfolio": {
     "portfolioItems": [
       {
+        "title": "GridSense",
+        "description": "A real-time grid monitoring and analytics platform built on Azure Cloud.",
+        "link": "https://github.com/GridSense-IU/GridSense",
+        "imageName": "gridsense.webp",
+        "imageAlt": "GridSense Image",
+        "technologies": [
+          "Azure Functions & Event Hubs",
+          "Cosmos DB",
+          "Power BI"
+        ]
+      },
+      {
+        "title": "HoosierHub",
+        "description": "A social media platform for connecting students with clubs, organizations, and events on the campus.",
+        "link": "hhttps://github.com/CSCI-P-566-HoosierHub/server",
+        "imageName": "hoosierhub.webp",
+        "imageAlt": "HoosierHub Image",
+        "technologies": [
+          "Spring Boot",
+          "MongoDB",
+          "Azure",
+          "GitHub Actions"
+        ]
+      },
+      {
         "title": "VeriCert",
         "description": "A service for issuing and verifying digital academic credentials, constructed on private blockchain networks.",
         "link": "https://vericert.vercel.app",
