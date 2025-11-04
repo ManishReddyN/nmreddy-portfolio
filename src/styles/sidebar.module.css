@@ -19,3 +19,10 @@
   cursor: pointer;
   float: right;
 }
+
+/* Hide sidebar on mobile when not toggled, but preserve animations */
+@media (max-width: 1080px) {
+  .hiddenMobile {
+    transform: translateX(-100%) !important;
+  }
+}

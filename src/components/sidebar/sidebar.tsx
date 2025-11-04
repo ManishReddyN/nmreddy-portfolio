@@ -34,7 +34,9 @@ export default function SideBar() {
         ></MdOutlineMenu>
       )}
       <Sidebar
-        className="sticky-top"
+        className={`sticky-top ${
+          isSmallScreen && !toggled ? styles.hiddenMobile : ""
+        }`}
         backgroundColor="var(--secondary-background-color)"
         customBreakPoint="1080px"
         width="300px"
