@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /contact
+Allow: /assets/profile/*.pdf
+
+Sitemap: https://www.nmreddy.me/sitemap.xml
 

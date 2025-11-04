@@ -14,7 +14,7 @@
       },
       {
         "name": "Resume",
-        "link": "/assets/profile/Resume_ManishReddy_Nandineni.pdf",
+        "link": "assets/profile/Manish Reddy Nandineni - Resume.pdf",
         "icon": "IoReader"
       },
       {
@@ -52,7 +52,7 @@
       "interests": "Distributed Systems, APIs, Agentic Systems",
       "interestsShort": "Distributed Systems, APIs, Agentic Systems"
     },
-    "resume": "Resume_ManishReddy_Nandineni.pdf"
+    "resume": "Manish Reddy Nandineni - Resume.pdf"
   },
   "bio": {
     "workExperience": [
