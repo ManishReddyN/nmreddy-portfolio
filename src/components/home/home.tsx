@@ -26,7 +26,9 @@ export default function Home() {
             Hi, I am{" "}
             <span className={styles.highlightName}>{homeData.name}</span>
           </h1>
-          <p className={styles.intro}>{homeData.intro}</p>
+          <p style={{ whiteSpace: "pre-line" }} className={styles.intro}>
+            {homeData.intro}
+          </p>
           <ul className={styles.socialIconsBordered + " " + styles.socialIcons}>
             {socialLinks.map((socialLink) => {
               const socialIcon = getDynamicIcon(socialLink.icon);

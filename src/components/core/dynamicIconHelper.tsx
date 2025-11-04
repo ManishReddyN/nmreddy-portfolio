@@ -26,6 +26,7 @@ import * as TiIcons from "react-icons/ti";
 import * as VscIcons from "react-icons/vsc";
 import * as WiIcons from "react-icons/wi";
 import * as PiIcons from "react-icons/pi";
+import * as LiaIcons from "react-icons/lia";
 
 const iconModules = {
   io: Io5Icons,
@@ -53,12 +54,13 @@ const iconModules = {
   vsc: VscIcons,
   wi: WiIcons,
   pi: PiIcons,
+  lia: LiaIcons,
 };
 
 export type DynamicIconType = ComponentType<IconBaseProps>;
 export const getDynamicIcon = (iconName: string): DynamicIconType => {
   const prefixMatch = iconName.match(
-    /^(Io|Gr|Bi|Si|Fa|Cg|Di|Fc|Fi|Gi|Go|Hi|Im|Lu|Ri|Sl|Tb|Ti|Vsc|Wi|Bs|Md|Ai|Pi)/
+    /^(Io|Gr|Bi|Si|Fa|Cg|Di|Fc|Fi|Gi|Go|Hi|Im|Lu|Ri|Sl|Tb|Ti|Vsc|Wi|Bs|Md|Ai|Pi|Lia)/
   );
   const prefix = prefixMatch?.[0]?.toLowerCase() || "io";
 

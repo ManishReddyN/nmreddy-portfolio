@@ -34,7 +34,9 @@ export default function BioItem({
                 </Col>
                 <Col md={9} sm={12} className={styles.bioItemContent}>
                   {roleAndYear.title}
-                  <p>{roleAndYear.description}</p>
+                  <p style={{ whiteSpace: "pre-line" }}>
+                    {roleAndYear.description}
+                  </p>
                 </Col>
               </Row>
             );

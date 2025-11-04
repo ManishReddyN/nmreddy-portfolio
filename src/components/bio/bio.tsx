@@ -45,7 +45,10 @@ export default function Resume() {
 
       <div>
         {volunteerExperience && (
-          <SectionTitle icon={FaHandsHelping} title="Volunteer Experience" />
+          <SectionTitle
+            icon={FaHandsHelping}
+            title="Organizational Experience"
+          />
         )}
         <div className={styles.bioWrapper}>
           {volunteerExperience &&

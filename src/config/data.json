@@ -5,7 +5,7 @@
   },
   "home": {
     "name": "Manish",
-    "intro": "I am a software engineer who turns messy requirements into predictable systems. I build clear APIs, simple data models, and services that hold up under real traffic. I ship small, learn fast, and keep things understandable. Off the keyboard, I reset on a bike and find new trails.",
+    "intro": "I am a software engineer who turns messy requirements into predictable systems.\nI build clear APIs, simple data models, and services that hold up under real traffic.\nI ship in modular chunks, learn fast, and keep things understandable.\nOff the keyboard, I reset on a bike and find new trails.",
     "socialLinks": [
       {
         "name": "LinkedIn",
@@ -47,42 +47,32 @@
       "educationGraduationDate": "May 2026",
       "educationGraduationDateShort": "May 2026",
       "openForWork": "Yes",
-      "coreCompetencies": "Cloud, AI Engineering, Backend systems",
+      "coreCompetencies": "Cloud, AI Engineering, Backend Systems",
       "coreCompetenciesShort": "Cloud, AI, Backend",
-      "interests": "Distributed systems, APIs, Agentic systems",
-      "interestsShort": "Distributed systems, APIs, Agentic AI"
+      "interests": "Distributed Systems, APIs, Agentic Systems",
+      "interestsShort": "Distributed Systems, APIs, Agentic Systems"
     },
     "resume": "Resume_ManishReddy_Nandineni.pdf"
   },
   "bio": {
     "workExperience": [
       {
-        "company": "Revoint LLC",
+        "company": "Revoint",
         "roles": [
           {
-            "title": "Software Engineer",
-            "description": "Individually contributing to development of a suite of highly scalable migration and acquisition data management tools. Responsible for designing and implementing features, ensuring code quality, and collaborating with the product owner to deliver high-quality software solutions.",
-            "year": "May 2025 - Present"
-          }
-        ]
-      },
-      {
-        "company": "Graduate and Professional Student Government (GPSG), IUB",
-        "roles": [
-          {
-            "title": "President",
-            "description": "Leading the Graduate and Professional Student Government at Indiana University Bloomington, I am responsible for representing the interests of over 10,000 graduate and professional students. My role involves advocating for student needs, managing a team of 10 members, and collaborating with university administration to enhance the graduate student experience.",
+            "title": "AI Software Engineer",
+            "description": "I built a high-throughput AWS document pipeline using S3, SQS, ECS, DynamoDB, and OpenSearch. This system processed over 300,000 documents (5 TB) and cut M&A due diligence time from months to weeks.\n\nFollowing that, I developed the PoC for a multi-agent AI system and am now leading it from PoC to production. I've shipped a V2 used by early customers, and my current work focuses on making the platform enterprise-grade by improving its orchestration stability, observability, and resilience.",
             "year": "May 2025 - Present"
           }
         ],
-        "companyURL": "https://gpsg.indiana.edu/"
+        "companyURL": "https://www.revoint.com/"
       },
       {
         "company": "Indiana University Bloomington",
         "roles": [
           {
             "title": "Associate Instructor",
-            "description": "Mentoring 30+ students from the Luddy School of Informatics, Computing, and Engineering, leading lab sessions on building light sensors for detecting light pollution in the Hoosier National Forest, grading assignments, and providing academic support.",
+            "description": "Mentored 40 students in C programming. I supported them through hands-on labs using STM32 microcontrollers, guiding them on debugging, firmware integration, calibration, and data capture for their embedded light-detection prototypes. My focus was on practical build quality and clear documentation over pure theory.",
             "year": "Jan 2025 - May 2025"
           }
         ],
@@ -93,17 +83,19 @@
         "roles": [
           {
             "title": "Senior Software Engineer",
-            "description": "Leading critical customer service requests, I deliver impactful user stories in collaboration with product owners and stakeholders leveraging Java and other tools, ensuring seamless integration and enhancing the overall quality.",
+            "description": "",
+            "description2": "Leading critical customer service requests, I delivered impactful user stories in collaboration with product owners and stakeholders leveraging Java and other tools, ensuring seamless integration and enhancing the overall quality.",
             "year": "Jan 2024 - July 2024"
           },
           {
             "title": "Software Engineer",
-            "description": "Transitioning to a key role, I focused on developing user stories and addressing critical defects within the Capital suite of software tools for EDA, contributing to the enhancement of product reliability and performance.",
+            "description": "",
+            "description2": "Transitioning to a key role, I focused on developing user stories and addressing critical defects within the Capital suite of software tools for EDA, contributing to the enhancement of product reliability and performance.",
             "year": "Jul 2022 - Dec 2023"
           },
           {
             "title": "Software Developer Intern",
-            "description": "Initiated as an intern, contributed to E/E system software projects for aerospace and defense. Primarily focused on Capital Data Migrate tool, rapidly upskilling and laying the foundation for my growth within the organization.",
+            "description": "I owned backend performance and stability for the Capital Suite, diagnosing and fixing critical memory, database, and threading bottlenecks that were blocking a major 250-user Airbus deployment. My work cut their simulation times from days to 8-10 hours, improved overall performance by 45%, and earned a Siemens Quarterly Performance Award.\n\nAdditionally, I enhanced Capital Migrate to reduce live upgrade windows from 3 days to under 24 hours and shipped a styling engine fix that cut customer workarounds by 80%. I grew into this senior position after starting as an intern, where I built my foundational skills by contributing stability fixes and features focused on multi-threading and backend performance.",
             "year": "Jun 2021 - Jun 2022"
           }
         ],
@@ -119,17 +111,6 @@
           }
         ],
         "companyURL": "https://www.contenterra.com/"
-      },
-      {
-        "company": "Stumagz",
-        "roles": [
-          {
-            "title": "Campus Lead",
-            "description": "Joined as a campus avenger in my freshman year at CMRCET's college magazine on stuMagz, contributing to the design team. Elevated to Campus Lead, continuing to actively contribute to the magazine's initiatives.",
-            "year": "Aug 2020 - Jun 2021"
-          }
-        ],
-        "companyURL": "https://www.stumagz.com/"
       }
     ],
     "education": [
@@ -143,17 +124,6 @@
           }
         ],
         "institutionURL": "https://www.cmrcet.ac.in/"
-      },
-      {
-        "institution": "Dexterity School of Leadership and Entrepreneurship",
-        "degrees": [
-          {
-            "title": "Leadership Development Program",
-            "year": "Jun 2021 - Jun 2022",
-            "description": "Engaged in a comprehensive program spanning two semesters and twelve modules, providing in-depth digital mentoring. Graduated by participating in the rigorous final week-long residential training at IRMA, Anand."
-          }
-        ],
-        "institutionURL": "https://www.dexschool.org/"
       },
       {
         "institution": "CMR College of Engineering & Technology",
@@ -191,37 +161,70 @@
     ],
     "volunteerExperience": [
       {
+        "organization": "Graduate and Professional Student Government (GPSG), IUB",
+        "roles": [
+          {
+            "title": "President",
+            "description": "I lead the Graduate and Professional Student Government at Indiana University Bloomington, representing over 10,000 graduate and professional students. My role involves advocating for student needs, managing a team of 10 members, and collaborating with university administration to enhance the graduate student experience.",
+            "year": "May 2025 - Present"
+          }
+        ],
+        "organizationURL": "https://gpsg.indiana.edu/advocacy/exec/index.html"
+      },
+      {
         "organization": "Student Council (CMRCET)",
         "roles": [
           {
             "title": "General Secretary",
-            "description": "Pivotal in founding the college's first student council, shaping its structure and constitution. As General Secretary, coordinated activities, bridged communication between management and students, and mentored committee heads. Initiating fundraisers, I led the organization of the college's major annual festivals, Azura & Carpe Diem.",
+            "description": "I was pivotal in founding the college's first student council, shaping its structure and constitution. As General Secretary, I coordinated activities, bridged communication between management and students, and mentored committee heads. I initiated fundraisers, I led the organization of the college's major annual festivals, Azura & Carpe Diem.",
             "year": "Sep 2021 - Sep 2022"
           }
         ],
-        "organizationURL": "https://cmrcet.ac.in/files/committe/sc-converted.pdf"
+        "organizationURL": "https://web.archive.org/web/20240227072327/https://cmrcet.ac.in/files/committe/sc-converted.pdf"
       },
       {
         "organization": "League of Coders",
         "roles": [
           {
             "title": "President",
-            "description": "Championed a thriving programming culture by organizing intercollegiate hackathons and programming contests. Conducted multiple sessions on data structures, algorithms, and development for junior students. Successfully hosted major inter-college events, including 'Code League' and 'DevJam'.",
+            "description": "I championed a thriving programming culture by organizing intercollegiate hackathons and programming contests. I conducted multiple sessions on data structures, algorithms, and development for junior students. I successfully hosted major inter-college events, including 'Code League' and 'DevJam'.",
             "year": "Jan 2020 - Jul 2021"
           }
         ],
         "organizationURL": "https://www.linkedin.com/company/loc-cmrcet/"
       },
       {
+        "organization": "Dexterity School of Leadership and Entrepreneurship",
+        "roles": [
+          {
+            "title": "Leadership Development Program",
+            "year": "Jun 2021 - Jun 2022",
+            "description": "Engaged in a comprehensive program spanning two semesters and twelve modules, providing in-depth digital mentoring. Graduated by participating in the rigorous final week-long residential training at IRMA, Anand."
+          }
+        ],
+        "organizationURL": "https://www.dexschool.org/"
+      },
+      {
         "organization": "We the Circle Initiative",
         "roles": [
           {
             "title": "Volunteer",
-            "description": "Volunteered with the design team for four months, managing social media posts and amassing a following of over 300 followers. Coordinated and executed the event 'Being the Voice', dedicated to raising awareness on topics such as gender orientation and women empowerment.",
-            "year": "May 2019 - Present"
+            "description": "I volunteered with the design team for four months, managing social media posts and amassing a following of over 300 followers. I coordinated and executed the event 'Being the Voice', dedicated to raising awareness on topics such as gender orientation and women empowerment.",
+            "year": "May 2019 - June 2022"
           }
         ],
         "organizationURL": "https://www.instagram.com/wethecircleinitiative/"
+      },
+      {
+        "organization": "Stumagz",
+        "roles": [
+          {
+            "title": "Campus Lead",
+            "description": "Joined as a campus avenger in my freshman year at CMRCET's college magazine on stuMagz, contributing to the design team. Elevated to Campus Lead, continuing to actively contribute to the magazine's initiatives.",
+            "year": "Aug 2020 - Jun 2021"
+          }
+        ],
+        "organizationURL": "https://www.forbes.com/profile/stumagz/"
       }
     ]
   },
@@ -235,40 +238,60 @@
       "icon": "IoLogoPython"
     },
     {
-      "title": "JavaScript",
-      "icon": "BiLogoJavascript"
+      "title": "AI Agents",
+      "icon": "RiRobot2Fill"
     },
     {
-      "title": "Solidity",
-      "icon": "SiSolidity"
+      "title": "AWS",
+      "icon": "FaAws"
+    },
+    {
+      "title": "Next.js",
+      "icon": "SiNextdotjs"
     },
     {
       "title": "Node",
       "icon": "GrNode"
     },
     {
-      "title": "ReactJS",
-      "icon": "GrReactjs"
+      "title": "Typescript",
+      "icon": "BiLogoTypescript"
     },
     {
-      "title": "Arduino",
-      "icon": "SiArduino"
+      "title": "SQL",
+      "icon": "PiFileSqlFill"
     },
     {
-      "title": "Debugging",
-      "icon": "CgDebug"
+      "title": "Distributed Systems",
+      "icon": "FaServer"
     },
     {
-      "title": "Git",
-      "icon": "FaGitAlt"
+      "title": "Microservices",
+      "icon": "LiaCubesSolid"
     },
     {
-      "title": "Agile Methodologies",
-      "icon": "DiScrum"
+      "title": "REST APIs",
+      "icon": "TbApi"
     },
     {
-      "title": "Unit Testing",
-      "icon": "FaCheckDouble"
+      "title": "Multi-Agent Orchestration",
+      "icon": "TbHierarchy3"
+    },
+    {
+      "title": "RAG",
+      "icon": "MdOutlineManageSearch"
+    },
+    {
+      "title": "LLM Integration",
+      "icon": "RiGeminiFill"
+    },
+    {
+      "title": "Prompt Engineering",
+      "icon": "FaPrompt"
+    },
+    {
+      "title": "LangChain/LangGraph",
+      "icon": "SiLangchain"
     },
     {
       "title": "PostgreSQL",
@@ -279,8 +302,52 @@
       "icon": "SiMongodb"
     },
     {
+      "title": "OracleDB",
+      "icon": "SiOracle"
+    },
+    {
+      "title": "DynamoDB",
+      "icon": "SiAmazondynamodb"
+    },
+    {
+      "title": "Elasticsearch",
+      "icon": "SiElasticsearch"
+    },
+    {
+      "title": "Redis",
+      "icon": "DiRedis"
+    },
+    {
+      "title": "SQS",
+      "icon": "SiAmazonsqs"
+    },
+    {
+      "title": "S3",
+      "icon": "SiAmazons3"
+    },
+    {
+      "title": "ECS",
+      "icon": "SiAmazonecs"
+    },
+    {
+      "title": "CloudWatch",
+      "icon": "SiAmazoncloudwatch"
+    },
+    {
       "title": "Serverless Functions",
       "icon": "PiFunctionBold"
+    },
+    {
+      "title": "Azure",
+      "icon": "VscAzure"
+    },
+    {
+      "title": "Docker",
+      "icon": "FaDocker"
+    },
+    {
+      "title": "CI/CD (GitHub Actions)",
+      "icon": "SiGithubactions"
     },
     {
       "title": "Deployment",
@@ -291,16 +358,44 @@
       "icon": "LuServerCog"
     },
     {
-      "title": "Hyperledger Besu",
-      "icon": "SiHyperledger"
+      "title": "Debugging",
+      "icon": "CgDebug"
     },
     {
-      "title": "Smart Contract Development",
+      "title": "Git",
+      "icon": "FaGitAlt"
+    },
+    {
+      "title": "GitHub",
+      "icon": "SiGithub"
+    },
+    {
+      "title": "Linux/Unix",
+      "icon": "VscTerminalLinux"
+    },
+    {
+      "title": "Performance Profilers",
+      "icon": "CgPerformance"
+    },
+    {
+      "title": "Unit Testing",
+      "icon": "FaCheckDouble"
+    },
+    {
+      "title": "Agile Methodologies",
+      "icon": "DiScrum"
+    },
+    {
+      "title": "Smart Contract Development (Solidity)",
       "icon": "FaFileContract "
     },
     {
-      "title": "Private Blockchain",
+      "title": "Private Blockchain (Ethereum)",
       "icon": "SiEthereum"
+    },
+    {
+      "title": "Arduino",
+      "icon": "SiArduino"
     },
     {
       "title": "RaspberryPi",
@@ -309,18 +404,6 @@
     {
       "title": "Internet of Things",
       "icon": "MdSensors"
-    },
-    {
-      "title": "MS Office",
-      "icon": "SiMicrosoftoffice"
-    },
-    {
-      "title": "Adobe Photoshop",
-      "icon": "SiAdobephotoshop"
-    },
-    {
-      "title": "Canva",
-      "icon": "SiCanva"
     },
     {
       "title": "Team Management",
@@ -343,44 +426,40 @@
       "icon": "FaHandshake"
     },
     {
-      "title": "Remote Collaboration",
-      "icon": "FaHouseLaptop"
-    },
-    {
       "title": "Teamwork",
       "icon": "BiGroup"
     }
   ],
   "interests": [
     {
-      "title": "Blockchain",
-      "description": "Experienced in crafting blockchain solutions using Hyperledger Besu, Solidity, and Ethereum. My focus lies in building private blockchain networks tailored for transformative applications in academia and the public sector.",
+      "title": "Backend & Distributed Systems",
+      "description": "I build backend systems, APIs, and cloud data flows that are reliable, observable, and scalable. My work includes Java and Python services, multi-threading, concurrency control, and performance tuning.",
       "icon": "GrCubes"
     },
     {
-      "title": "Artificial Intelligence",
-      "description": "Certified IBM AI Engineer with expertise in SSDs and YOLO algorithms for image detection. Skilled in building deep learning models for scene analysis. Currently expanding my knowledge with a focus on SLMs.",
+      "title": "Agentic & AI Systems",
+      "description": "I design and ship agentic AI systems that unlock real speed and leverage. This includes multi-agent orchestration for complex workflows (research, strategy, QA) with LLMs, tools and MCP integrations.",
       "icon": "RiRobot2Line"
     },
     {
-      "title": "Digital Governance",
-      "description": "Passionate about the intersection of technology and policy. Eager to contribute to the development of products that facilitate effective governance. Experienced in working with non-profit organizations.",
-      "icon": "RiGovernmentLine"
+      "title": "Cloud-Scale Data Pipelines",
+      "description": "I have hands-on experience building high-throughput, fault-tolerant data pipelines on AWS, processing over 5 TB of documents for M&A due diligence using S3, SQS, ECS, and DynamoDB.",
+      "icon": "FaAws"
     },
     {
-      "title": "Software Development",
-      "description": "Passionate about creating impactful products, I have hands-on experience building websites, applications and backend services. Currently honing my skills in crafting clean and efficient software for optimal user experiences.",
-      "icon": "MdDevicesOther"
+      "title": "Performance & Reliability",
+      "description": "I specialize in stabilizing mission-critical systems. My focus is on production reliability, including memory and database leak diagnostics, threading analysis, and load testing to support hundreds of concurrent users.",
+      "icon": "GoPulse"
     },
     {
-      "title": "Smart Systems",
-      "description": "Extensive hands-on experience in developing Arduino and IoT projects. Worked under the esteemed guidance of Padmasri Chintakindi Mallesham to enhance the control unit and working of 'Laxmi Asu Machine' using Arduino.",
-      "icon": "HiOutlineChip"
+      "title": "Search & Retrieval ",
+      "description": "I build advanced search capabilities using OpenSearch for full-text and vector indexing. I am experienced in designing retrieval systems that leverage semantic relationships, including Knowledge Graphs.",
+      "icon": "FaSearch"
     },
     {
-      "title": "Motorcycling",
-      "description": "I'm an avid motorcycle enthusiast, exploring various outskirts of Hyderabad on frequent rides. Recently completed my longest solo ride, covering over 2100 kms. Always up for a chat about bikes and adventure.",
-      "icon": "GiFullMotorcycleHelmet"
+      "title": "Engineering & Collaboration",
+      "description": "I translate messy business problems into systems that ship. This includes writing design docs, managing CI/CD, and collaborating across functions (product, legal, finance) to deliver measurable outcomes.",
+      "icon": "FaUsers"
     }
   ],
   "portfolio": {
@@ -496,7 +575,7 @@
   },
   "contact": {
     "phone": "+1 737 298 1563",
-    "emailID": "hello@nmreddy.me",
+    "emailID": "manishreddy_nandineni@outlook.com",
     "address": "Bloomington, IN",
     "addressLink": "https://www.google.com/maps/place/Bloomington,+IN/"
   }

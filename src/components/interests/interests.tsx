@@ -8,7 +8,7 @@ export default function Interests() {
   const interests = data.interests;
   return (
     <div className="containerMain">
-      <Title title="Interests" />
+      <Title title="Focus Areas" />
       <Row>
         {interests &&
           interests.map((item) => {
