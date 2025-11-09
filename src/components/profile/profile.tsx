@@ -115,7 +115,7 @@ export default function Profile() {
                   <b>Open for Work</b> {profileData.details.openForWork}
                 </li>
               )}
-              {profileData.details.coreCompetencies && !isSmallScreen && (
+              {/* {profileData.details.coreCompetencies && !isSmallScreen && (
                 <li>
                   <b>Core Competencies</b>{" "}
                   {profileData.details.coreCompetencies}
@@ -135,6 +135,16 @@ export default function Profile() {
               {profileData.details.interestsShort && isSmallScreen && (
                 <li>
                   <b>Interests</b> {profileData.details.interestsShort}
+                </li>
+              )} */}
+              {profileData.details.emailID && (
+                <li>
+                  <b>Email</b> {profileData.details.emailID}
+                </li>
+              )}
+              {profileData.details.phone && (
+                <li>
+                  <b>Phone</b> {profileData.details.phone}
                 </li>
               )}
             </ul>

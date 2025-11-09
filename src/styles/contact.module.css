@@ -138,6 +138,42 @@
 .contactInfoBlock p strong {
   color: var(--primary-text-color);
 }
+
+@media only screen and (max-width: 768px) {
+  .contactInfoBlock {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .contactInfoBlockIcon {
+    height: 44px;
+    width: 44px;
+    flex: 0 0 44px;
+    max-width: 44px;
+    padding: 7px;
+    line-height: 30px;
+    margin-right: 12px;
+  }
+  
+  .containerInfoBlockText p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .containerInfoBlockText p strong {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .containerInfoBlockText p a {
+    font-size: 0.9rem;
+  }
+  
+  .containerInfoBlockText p br {
+    display: none;
+  }
+}
+
 .errorMessage h6 {
   color: #cd5c5c;
   font-size: 0.8rem;

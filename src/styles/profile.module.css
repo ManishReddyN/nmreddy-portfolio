@@ -52,6 +52,8 @@
 .profileInfo ul li {
   list-style: none;
   display: flex;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 .profileInfo ul li b {
   min-width: 225px;
@@ -79,5 +81,21 @@
     display: inline-block;
     position: relative;
     margin-right: 7px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profileInfo ul li {
+    flex-direction: column;
+    margin-bottom: 4px;
+  }
+  .profileInfo ul li b {
+    min-width: auto;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
+  .profileInfo ul li b::after {
+    content: "";
   }
 }

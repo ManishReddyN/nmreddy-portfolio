@@ -1,11 +1,11 @@
 {
   "displayPicture": {
-    "fileName": "avatar.webp",
+    "fileName": "profile-2.webp",
     "alt": "Display Picture"
   },
   "home": {
     "name": "Manish",
-    "intro": "I am a software engineer who turns messy requirements into predictable systems.\nI build clear APIs, simple data models, and services that hold up under real traffic.\nI ship in modular chunks, learn fast, and keep things understandable.\nOff the keyboard, I reset on a bike and find new trails.",
+    "intro": "I am a backend engineer focused on building reliable, observable, and scalable systems. My work ranges from stabilizing mission-critical enterprise services to building high-throughput cloud pipelines and production-grade, multi-agent AI platforms.",
     "socialLinks": [
       {
         "name": "LinkedIn",
@@ -46,6 +46,8 @@
       "currentEducationShort": "MS in CS at IUB",
       "educationGraduationDate": "May 2026",
       "educationGraduationDateShort": "May 2026",
+      "emailID": "manishreddy_nandineni@outlook.com",
+      "phone": "+1 737 298 1563",
       "openForWork": "Yes",
       "coreCompetencies": "Cloud, AI Engineering, Backend Systems",
       "coreCompetenciesShort": "Cloud, AI, Backend",
@@ -454,7 +456,7 @@
     {
       "title": "Search & Retrieval ",
       "description": "I build advanced search capabilities using OpenSearch for full-text and vector indexing. I am experienced in designing retrieval systems that leverage semantic relationships, including Knowledge Graphs.",
-      "icon": "FaSearch"
+      "icon": "TbDatabaseSearch"
     },
     {
       "title": "Engineering & Collaboration",
@@ -479,7 +481,7 @@
       {
         "title": "HoosierHub",
         "description": "A social media platform for connecting students with clubs, organizations, and events on the campus.",
-        "link": "hhttps://github.com/CSCI-P-566-HoosierHub/server",
+        "link": "https://github.com/CSCI-P-566-HoosierHub/server",
         "imageName": "hoosierhub.webp",
         "imageAlt": "HoosierHub Image",
         "technologies": [

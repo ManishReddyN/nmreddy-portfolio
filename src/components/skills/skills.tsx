@@ -6,13 +6,13 @@ import data from "@/config/data.json";
 import { getDynamicIcon } from "../core/dynamicIconHelper";
 
 export default function Skills() {
-  const interests = data.skills;
+  const skills = data.skills;
   return (
     <div className={styles.skillsContainer}>
       <Title title="Skills" />
       <div className={styles.skillsHolder}>
-        {interests &&
-          interests.map((item) => {
+        {skills &&
+          skills.map((item) => {
             const { icon, title } = item;
             return (
               <SkillItem
