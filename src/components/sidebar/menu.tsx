@@ -44,12 +44,8 @@ export default function MenuItemList() {
           icon={MdOutlineAppRegistration}
         ></MenuItem>
       </Link>
-      <Link href="/archive" style={{ textDecoration: "none" }}>
-        <MenuItem
-          href="/archive"
-          title="Archive"
-          icon={MdOutlineFeed}
-        ></MenuItem>
+      <Link href="/blogs" style={{ textDecoration: "none" }}>
+        <MenuItem href="/blogs" title="Blogs" icon={MdOutlineFeed}></MenuItem>
       </Link>
       <Link href="/contact" style={{ textDecoration: "none" }}>
         <MenuItem

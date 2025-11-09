@@ -7,7 +7,7 @@ export default function Archive() {
   const archiveItems = data.archive.archiveItems;
   return (
     <div className="containerMain">
-      <Title title="Archive" />
+      <Title title="Blogs" />
 
       <Row>
         {archiveItems.map((item) => (
